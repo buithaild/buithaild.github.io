@@ -1,6 +1,6 @@
 /* Reset CSS */
 /*commom*/
-.clear  {
+.clear {
     clear: both;
 }
 
@@ -70,21 +70,24 @@
 .col-half {
     width: 50%;
 }
+
 .col-full {
     width: 100%;
 }
 
 
-*{
+* {
     /* Emmet */
     padding: 0;
     margin: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* 
 1. Làm từ ngoài vào trong
 2. Làm từ trên xuống dưới
@@ -97,9 +100,8 @@ html{
 4. Kiểu dáng (kiểu chữ, kiểu hình tròn, ...) 
 */
 /* Main */
-#main {
-    
-}
+#main {}
+
 #header {
     height: 46px;
     background-color: #000;
@@ -115,11 +117,12 @@ html{
     display: inline-block;
 }
 
-#nav, .subnav {
+#nav,
+.subnav {
     list-style-type: none;
 }
 
-#nav > li{
+#nav>li {
     display: inline-block;
 
 }
@@ -128,7 +131,7 @@ html{
     position: relative;
 }
 
-#nav > li > a {
+#nav>li>a {
     color: #fff;
     text-transform: uppercase;
 }
@@ -144,7 +147,7 @@ html{
     display: block;
 }
 
-#nav > li:hover > a,
+#nav>li:hover>a,
 #nav .subnav li:hover {
     color: #000;
     background-color: #ccc;
@@ -192,14 +195,13 @@ html{
     font-size: 20px;
     line-height: 46px;
 }
-#header .search-btn:hover
- {
-     cursor: pointer;
+
+#header .search-btn:hover {
+    cursor: pointer;
     background-color: #f44336;
 }
 
-#header .mobile-menu-btn:hover
-{ 
+#header .mobile-menu-btn:hover {
     background-color: #ccc;
 }
 
@@ -212,8 +214,9 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/html-css/w3_ban/asset/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('/asset/img/slider/slider1.jpg') top center / cover no-repeat;
 }
+
 #slider .text-content {
     position: absolute;
     bottom: 48px;
@@ -222,21 +225,19 @@ html{
     transform: translateX(-50%);
     text-align: center;
 
-    }
+}
 
 #slider .text-heading {
     font-weight: 500;
     font-size: 24px;
-    }
+}
 
 #slider .text-description {
     font-size: 15px;
-    }
-
-
-#content {
-
 }
+
+
+#content {}
 
 #content .content-section {
     width: 800px;
@@ -271,6 +272,7 @@ html{
     line-height: 1.4;
 
 }
+
 #content .member-list {
     padding-top: 32px;
 }
@@ -390,7 +392,7 @@ html{
     min-height: 200px;
     position: relative;
     animation: modlFaceIn ease 0.5s;
-} 
+}
 
 .modal-header {
     background: #009688;
@@ -401,6 +403,7 @@ html{
     font-size: 30px;
     color: #fff;
 }
+
 .modal-heading-icon {
     margin-right: 16px;
 }
@@ -428,6 +431,7 @@ html{
     font-size: 15px;
     margin-bottom: 12px;
 }
+
 .modal-input {
     border: 1px solid #ccc;
     width: 100%;
@@ -445,13 +449,16 @@ html{
     text-transform: uppercase;
     padding: 18px;
 }
+
 #buy-tickets:hover {
     opacity: 0.9;
 }
+
 .modal-footer {
     padding: 16px;
     text-align: right;
 }
+
 .modal-footer a {
     color: #2196F3;
 }
@@ -460,6 +467,7 @@ html{
 .contact-content {
     margin-top: 48px;
 }
+
 .contact-infor {
     font-size: 18px;
     line-height: 1.5;
@@ -469,6 +477,7 @@ html{
     width: 30px;
     display: inline-block;
 }
+
 .contact-form {
     font-size: 15px;
 }
@@ -478,6 +487,7 @@ html{
     border: 1px solid #ccc;
     width: 100%;
 }
+
 .map-section img {
     width: 100%;
 }
@@ -488,6 +498,7 @@ html{
     text-align: center;
 
 }
+
 #footer .socicals-list {
     font-size: 24px;
 }
@@ -496,17 +507,19 @@ html{
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
 }
+
 #footer .copyright a:hover,
 #footer .socicals-list a:hover {
     color: rgba(0, 0, 0, 0.4);
 }
+
 #footer .copyright {
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.4);
 
 }
 
-#footer .copyright a{
+#footer .copyright a {
     color: rgba(0, 0, 0, 0.6);
 
 }
@@ -517,6 +530,7 @@ html{
         opacity: 0;
         transform: translateY(-140px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
